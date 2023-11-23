@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+/* body {
+    border: 1px red solid;
+} */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 667px;
+    height: 50px;
+    border-radius: 8px;
+    background: #fafafa;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0px 0px 0px 15px;
+}
+
+.logo {
+    font-size: 74px;
+    color: #282828;
+    font-size: 29.536px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav-links .links {
+    margin: 0px 0px 0px 32px;
+    text-decoration: none;
+    color: #282828;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cta-contact {
+    border-radius: 10px;
+    background: #FF725E;
+    color: #FFF;
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+}
