@@ -1,5 +1,4 @@
 // navbar.js
-// if hamburger-menu is clicked display mobile navbar (.nav-mobile) and console.log("Opened")
 
 console.log("Charged !");
 
