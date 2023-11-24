@@ -2,8 +2,10 @@
 
 :root {
     --primary-color: #FF725E;
-    --text-color : #282828;
+    --text-color-dark : #282828;
+    --text-color-light : #f1f1f1;
     --background-color : #ffffff;
+    /* Other */
     --app-mac-btn-1 : #FF5050;
     --app-mac-btn-2 : #FFD850;
     --app-mac-btn-3 : #50FF76;
@@ -15,6 +17,10 @@
     box-sizing: border-box;
     font-family: 'SF Pro Display', sans-serif;
     list-style: none;
+}
+
+.no-scroll {
+    overflow: hidden;
 }
 
 header {
@@ -66,9 +72,9 @@ nav {
 }
 
 .logo-mobile {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
-    font-size: 30px;
+    font-size: 70px;
     color: #282828;
     font-weight: 700;
     text-decoration: none;
@@ -103,7 +109,7 @@ nav {
     justify-content: left;
     align-items: center; /* left ou center*/
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     flex-direction: column;
@@ -128,6 +134,10 @@ nav {
         transform: translateX(-100%);
     }
 
+    .nav-links-mobile li {
+        margin-bottom: 15px;
+    }
+
     .nav-mobile.active {
         transform: translateX(0px);
     }
@@ -143,11 +153,10 @@ nav {
     .links-mobile-1 {
         color: #fff;
         text-decoration: none;
-        font-size: 25px;
-        margin: 15px;
-        background-color: #FF725E;
-        padding: 10px;
-        border-radius: 8px;
+        font-size: 30px;
+        background-color: var(--app-mac-btn-1);
+        padding: 13px;
+        border-radius: 16px;
     }
 
     .links-mobile-2 {
@@ -172,4 +181,40 @@ nav {
 
 .Important-words {
     color: var(--primary-color);
+}
+
+main h1 {
+    margin: 100px 0px 0px 0px;
+    color: #282828;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+main p {
+    margin: 15px 0px 0px 0px;
+    color: #282828;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+main .svg-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 840px) {
+    main h1 {
+        margin: 40px 0px 0px 0px;
+        font-size: 57px;
+    }
+
+    main p {
+        font-size: 30.25px;
+    }
+
+    .first_svg {
+        width: 100%;
+    }
 }
