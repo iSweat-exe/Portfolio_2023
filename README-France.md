@@ -24,7 +24,7 @@ Ce site a été développé en utilisant les technologies suivantes :
 
 Si vous souhaitez exécuter ce site localement, suivez ces étapes simples :
 
-1. Clonez ce dépôt : `git clone [lien du dépôt]`
+1. Clonez ce dépôt : `git clone https://github.com/iSweat-exe/Pages/tree/master`
 2. Ouvrez le fichier `index.html` dans votre navigateur web.
 
 ## Contact

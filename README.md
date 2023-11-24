@@ -22,7 +22,7 @@ This site was developed using the following technologies:
 
 If you want to run this site locally, follow these simple steps:
 
-1. Clone this repository: `git clone [repository link]`
+1. Clone this repository: `git clone https://github.com/iSweat-exe/Pages/tree/master`
 2. Open the `index.html` file in your web browser.
 
 ## Contact
