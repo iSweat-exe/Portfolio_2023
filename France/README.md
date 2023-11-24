@@ -14,9 +14,9 @@ Welcome to my online portfolio! This project showcases my skills as a junior/int
 
 This site was developed using the following technologies:
 
-- HTML5
-- CSS3
-- JavaScript
+- HTML5 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="15" width="20" alt="HTML5" />
+- CSS3 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="15" width="20" alt="CSS3" />
+- JavaScript <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="15" width="20" alt="JavaScript" />
 
 ## How to Run Locally
 
