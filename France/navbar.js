@@ -1,22 +1,21 @@
-// navbar.js
+// navnar.js
 
-console.log("Charged !");
-
+const navMobile = document.querySelector(".nav-mobile");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const closeMenu = document.querySelector(".close-menu");
 
-hamburgerMenu.addEventListener("click", () => {
-    const navMobile = document.querySelector(".nav-mobile");
+console.log("Chargé !");
 
+function toggleMenu() {
     navMobile.classList.toggle("active");
+}
 
-    console.log("Opened");
-})
+hamburgerMenu.addEventListener("click", () => {
+    toggleMenu();
+    console.log("Ouvert");
+});
 
 closeMenu.addEventListener("click", () => {
-    const navMobile = document.querySelector(".nav-mobile");
-
-    navMobile.classList.toggle("active");
-
-    console.log("Closed");
-})
+    toggleMenu();
+    console.log("Fermé");
+});

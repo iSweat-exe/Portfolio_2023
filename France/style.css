@@ -1,10 +1,20 @@
 /* Style.css */
 
+:root {
+    --primary-color: #FF725E;
+    --text-color : #282828;
+    --background-color : #ffffff;
+    --app-mac-btn-1 : #FF5050;
+    --app-mac-btn-2 : #FFD850;
+    --app-mac-btn-3 : #50FF76;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'SF Pro Display', sans-serif;
+    list-style: none;
 }
 
 header {
@@ -45,10 +55,20 @@ nav {
     text-decoration: none;
 }
 
+
+
+/* Mobile */
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
 .logo-mobile {
     margin-top: 30px;
     text-align: center;
-    font-size: 29.536px;
+    font-size: 30px;
     color: #282828;
     font-weight: 700;
     text-decoration: none;
@@ -59,12 +79,6 @@ nav {
     text-decoration: none;
     color: #282828;
     font-size: 25px;
-}
-
-.hamburger-menu {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
 }
 
 .bar {
@@ -85,14 +99,13 @@ nav {
 }
 
 .nav-mobile ul {
-    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center; /* left ou center*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -116,7 +129,7 @@ nav {
     }
 
     .nav-mobile.active {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
 
     .cta-contact {
@@ -126,4 +139,37 @@ nav {
     .hamburger-menu {
         display: flex;
     }
+
+    .links-mobile-1 {
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        margin: 15px;
+        background-color: #FF725E;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .links-mobile-2 {
+        color: #333;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    .links-mobile-3 {
+        color: #333;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    .close-menu {
+        width: 47px;
+    }
+    
+}
+
+/* Fin Navbar */
+
+.Important-words {
+    color: var(--primary-color);
 }
