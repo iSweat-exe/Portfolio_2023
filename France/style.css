@@ -183,7 +183,7 @@ nav {
     color: var(--primary-color);
 }
 
-main h1 {
+main .title-1 {
     margin: 100px 0px 0px 0px;
     color: #282828;
     text-align: center;
@@ -199,9 +199,59 @@ main p {
     font-weight: 500;
 }
 
-main .svg-container {
+.image-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.competences-section {
+    margin-top: 56px;
+    width: 100%;
+    height: 660px;
+    border-radius: 25px;
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.competences-section img {
+    display: block;
+    margin: 50px auto 80px auto;
+    width: 40%;
+}
+
+main .competences-section .title-2 {
+    color: var(--text-color-light);
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+main .competences-section p {
+    color: #FAFAFA;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.competences-section .sous-title-img {
+    font-size: 38.822px;
+}
+
+main .title-3 {
+    color: #282828;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 100px;
+    transform: scale(0.65);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 @media (max-width: 840px) {
